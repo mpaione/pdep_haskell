@@ -4,5 +4,6 @@ data Persona = Deportista{nombre::String,energia::Double,habilidad::Double} deri
 ana = Deportista "ana" 100 10.5
 pedro = Deportista "pedro" 50 50
 juana = Deportista "juana" 80 80
+diego = Deportista "diego" 70 70
 ejercitar horas deportista = deportista {energia = energia deportista - horas , habilidad = habilidad deportista + horas}
 
